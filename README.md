@@ -1,3 +1,8 @@
+<p >
+    <a href="https://github.com/liangjingkanji/Net">中文</a>
+    | <a href="https://github.com/liangjingkanji/Net/blob/master/README_EN.md">English</a>
+</p>
+
 <p align="center"><img src="https://raw.githubusercontent.com/liangjingkanji/Net/master/docs/img/logo.gif" width="300"/>
 
 <p align="center"><strong>基于协程完善的Android网络请求库</strong></p>
@@ -27,8 +32,6 @@
 Net是基于[OkHttp](https://github.com/square/okhttp)/协程的非侵入式框架(可使用所有Api), 可升级OkHttp版本保持网络安全
 
 <br>
-
-Welcome to international translation of this project's documents/notes, thank you for your support!
 
 [Net 1.x](https://github.com/liangjingkanji/Net/tree/1.x) 版本使用RxJava实现 <br>
 [Net 2.x](https://github.com/liangjingkanji/Net/tree/2.x) 版本使用协程实现 <br>
@@ -100,7 +103,7 @@ Module 的 build.gradle 添加依赖框架
 implementation "org.jetbrains.kotlinx:kotlinx-coroutines-core:1.6.0" // 协程(版本自定)
 implementation 'org.jetbrains.kotlinx:kotlinx-coroutines-android:1.6.0'
 implementation 'com.squareup.okhttp3:okhttp:4.11.0' // 要求OkHttp4以上
-implementation 'com.github.liangjingkanji:Net:3.6.4'
+implementation 'com.github.liangjingkanji:Net:3.7.0'
 ```
 如果在 Android 5 (API level 21)以下开发, 请使用 [Net-okhttp3](https://github.com/liangjingkanji/Net-okhttp3)
 <br>
